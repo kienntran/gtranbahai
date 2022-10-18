@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    max-width: 1000px;
+    padding: auto;
+    margin : 0px auto;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+.trangchu{
+    margin: 0 auto;
+}
+.trangchu > header{
+    background-size: 100% 100%;
+    height: 300px;
+}
+header img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.trangchu > nav{
+    line-height: 25px;
+    background-color: #111110;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.trangchu > nav ul{
+    display: flex;
+    margin: 0;
+}
+.trangchu > nav ul  li{
+    list-style: none;
+}
+.trangchu> nav a{
+    font-variant: small-caps;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.trangchu>nav a:visited{
+    color: white;
+}
+.trangchu>nav a:hover{
+    color: white;
+    text-decoration: underline;
+    transition: all 0.25s ease-in;
+}
+.benphai{
+   float: right;
+}
+.search{
+    background-color: white;
+    border: 1px solid gainsboro;
+    padding: 5.3px;
+    margin-left: -5px;
+    line-height: 8px;
+}
+.trangchu > article{
+    min-height: 300px;
+    width: 600px;
+    background-color: white;
+    float: left;
+}
+img.cangiua {
+    display: block; 
+    margin-left: 600px; 
+    margin-right: 400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.boxlon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.boxphai{
+    width: 65%;
+}
+.boxgiua{
+    width: 30%;
+}
+.boxtrai{
+    width: 70%;
+}
+footer{
+    background-color : rgb(4, 4, 12);
+    min-height: 200px;
+    display: flex;
+}
+.trangchu > footer{
+    float: none;
+    color: white;
+}
+.cot1{
+    width: 40%;
+}
+.cot2{
+    width: 40%;
+}
+.cot3{
+    width: 20%;
+}
+.menu>ul>li{
+    position:relative;
+}
+.menu ul ul{
+    position:absolute;
+    display:none;
+    top: 20px;
+    right: -20%;
+}
+.menu ul ul a{
+    display:block;
+}
+.menu>ul>li:hover>ul{
+    display:block;
+    transition: all 0.25s ease-in;
+}
+.menu ul ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 1px gray;
+    
+}
+.menu ul ul a{
+    line-height:30px;
+    color:orangered;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:10pt;
+    padding:0 10px;
+}
+.menu ul ul a:hover{
+    background-color:orange;
+    color:white;
+}
+.menu ul ul a{
+    color: rgb(47, 114, 153);
+}
+.submenu a:visited{
+    color: rgb(47, 114, 153) !important;
+}
